@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2a1b2f1d18.js" crossorigin="anonymous"></script>
+    <title>RATE ME</title>
+</head>
+<body>
+    <nav id="navBar" class="navbar-white">
+        <a href="index.html"><img src="img/images/logorate2.png" class="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="lista.html" class="active">Servicio de Transporte</a></li>
+            <li><a href="" class="active">Denuncia</a></li>
+            <li><a href=""class="active">Reporte Colectivo</a></li>
+            <li><a href=""class="active">Encuentrame</a></li>
+        </ul>
+        <a href="" class="register-btn">Registrate Ahora</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Ruta 1</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                    <span>245 reviews</span>
+                </div>
+                <div>
+                    <p>Cono Sur</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+              <div class="gallery-img-1"> <img src="img/images/ruta1.png" ></div>
+              <div><img src="img/images/ruta1.png" alt=""></div>
+              <div> <img src="img/images/ruta1.png" alt=""></div>
+              <div><img src="img/images/ruta1.png" alt=""></div>
+              <div><img src="img/images/ruta1.png" alt=""></div>        
+        </div>
+        <div class="small-details">
+            <h2>Servio de Transporte que cubre la ruta de cono sur Ciudad Nueva</h2>
+            <p>Placa &nbsp;&nbsp;&nbsp;A35321 &nbsp;&nbsp;</p>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label >Dni</label>
+                <input type="text" placeholder="Agregar Dni">
+            </div>
+            <div>
+                <label >Licencia</label>
+                <input type="text" placeholder="Agregar Licencia">
+            </div>
+            <div class="guest-field">
+                <label >Problema</label>
+                <input type="text" placeholder="Describir">
+            </div>
+            <button type="submit">Enviar Reporte</button>
+        </form>
+        <ul class="details-list">
+            <li><i class="fa-solid fa-bus"></i>Roberto Miroes
+                <span>Falta de Limpieza en el bus</span>
+            </li>
+            <li><i class="fa-solid fa-bus"></i>Rocio Garcia
+                <span>Agresion Verbal por parte del chofer</span>
+            </li>
+            <li><i class="fa-solid fa-bus"></i>Juan robert 
+                <span>No recoge escolares</span>
+            </li>
+            <li><i class="fa-solid fa-bus"></i>Lucia Marquez
+                <span>No respeta Semaforo</span>
+            </li>
+        </ul>
+        <hr class="line">
+        <p class="home-desc">Lorem ipsum dolor sit amet consectetur, adipisicing
+             elit. Voluptatem amet tempora officia laudantium sint nisi, veniam iste dolorem aspernatur, cumque impedit voluptatibus fugit, blanditiis illo. 
+            Inventore numquam rerum error animi.</p>
+        <hr class="line">
+        <div class="map">
+            <h3>Ruta de la empresa </h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15175.252738621066!2d-70.26288985844229!3d-18.033871472694543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915acf4e8868a385%3A0x423065b9eb945967!2sGregorio%20Albarracin%2C%20Tacna!5e0!3m2!1ses-419!2spe!4v1670375341268!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>TACNA, TACNA, PERU</p>
+        <P>Esto es mi lugar de ubicacion</P>
+        </div>
+        <hr class="line">
+        <div class="host">
+            <img src="img/images/host.png" >
+            <div>
+                <h2>Empresa de Transporte Ruta 1</h2>
+                <p><span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </span>&nbsp;&nbsp; 245 comentarios&nbsp;&nbsp;comentarios positivos</p>
+            </div>
+        </div>
+        <a href="" class="contact-host">Contactar Empresa</a>
+    </div>
+    <div class="container">
+        <div class="footer">
+            <a href="https://facebook.com" ><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://facebook.com" ><i class="fa-brands fa-tiktok"></i></i></a>
+            <a href="https://facebook.com" ><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://facebook.com" ><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" ><i class="fa-brands fa-twitter"></i></a>
+            <hr>
+            <p>Copyright ✡ 2022 L.M Siberia Peru.</p>
+        </div>    
+    </div>
+    
+    </div>
+    <script>
+        var navBar =document.getElementById("navBar");
+        function togglebtn(){
+            navBar.classList.toggle("hidemenu");
+        }
+    </script>
+</body>
+</html>
